@@ -1,0 +1,1107 @@
+ /* media queryyyyyyyyy */
+
+ @media screen and (max-width: 992px) {
+    .nav{
+        width:100%;
+  position: static;
+       /* background-color: aquamarine; */
+    }
+    
+      .nav li {
+       
+        width: 100%;
+      }  
+      /* Start Slider Section */
+ .Slider-text{
+
+    font-size: 14px;
+   }
+   .Slider-text h2{
+     font-size: 20px;
+  
+   }
+   .Slider-text h1{
+     font-size: 20px;
+   
+   }
+   .Slider-text h3{
+     font-size: 16px;
+   
+   }
+    /* Start About Section */
+    .About{
+        position: relative;
+      }
+      .profile-image{
+          width:100%;
+        position: absolute;
+        left:  0%;
+        /* background-color: #ff305b; */
+      }
+      
+      .profile-back{
+        display: none;
+      }
+      .profile-hover{
+       width: 58%;
+          top:100%;
+          left:21%;
+      }
+      
+      /* about-text */
+      .about-text{
+          margin-top: 80%;
+          left: 0%;
+          width: 100%;
+      }
+  
+  .about-text h1{
+  
+      font-size: 20px;
+  }
+  .about-text h1::after{
+  
+      top:6px;
+  
+  }
+  
+  .about-text p{
+   
+      font-size: 13px;
+  
+  }
+  
+  
+  table{
+      width: 100%;
+  }
+  td{
+   padding-top: 3%;
+   color: #5A5555;
+   font-size: 13px;
+  }
+  
+  
+  .about-text button{
+    
+      font-size: 10px;
+   
+  }
+  /* Services Section */
+  .Services{
+      background-color: rgb(241,241,241);
+      width:100%;
+      margin-top: 150%;
+      height: 200vh;
+  }
+  .Services h1{ 
+  
+      font-size: 20px;
+  }
+  
+  
+  .UI-section{
+      width:100%;
+     
+      }
+      
+      .UI-img img{
+        width: 5%;
+      
+      }
+      .UI-section h2{
+    
+          font-size: 20px;
+   
+      }
+      .UI-section p{
+       
+          font-size: 14px;
+     
+      }
+  
+  /* Start Protfolio Section */
+  .protfolio{
+      margin-top: 0%;
+  }
+  .protfolio h1{
+      padding-top: 5%;
+      text-align: center;
+      position: relative;
+  }
+  
+  
+  
+  .nav-protfolio{
+      width: 50%;
+      /* float: right; */
+      margin-top: 8%;
+      display: inline-block;
+      margin-right: 20%;
+      /* background-color: aqua; */
+  }
+    
+      .nav-protfolio li {
+        width: 100%;
+   
+      }
+      
+      .nav-protfolio ul a {
+  
+       font-size: 13px;
+    
+      }
+       .nav-protfolio .active a{
+          color: #ff305b;
+         
+         }  
+      .protfolio-imgs {
+          margin-top: 3%;
+          width: 100%;
+       
+
+      }
+      div.gallary {
+          margin: 20px;
+          float: left;
+          width: 100%;
+    
+        }
+        
+        div.gallary:hover {
+        opacity: .5;
+        }
+        .protfolio-numbers{
+          background-color: rgb(241,241,241);
+          height: 90vh;
+         
+
+  }
+  .team-section{
+      /* background-color: aqua; */
+      width:100%;
+      margin-top: 5%;
+      margin-left: 7%;
+  }
+  .team-section img{
+      width: 5%;
+      text-align: center;
+  }
+  .team-section h1 {
+     font-size: 20px;
+
+  }
+  .team-section h4 {
+     font-size: 13px;
+           }
+  
+   /* Start Testimonial Section */
+  .Testimonial{
+      height: 100vh;
+  }
+  .Testimonial h1{
+      padding-top: 5%;
+     font-size: 20px;
+  }
+  
+  
+  
+  .card1{
+      background-color: rgb(241,241,241);
+      width: 90%;
+      height: 30vh;
+      margin-left: 9%;
+      margin-top: 5%;
+      border-radius: 10px;
+      position: relative;
+  }
+  .red-triangle{
+      width: 20%;
+      height: 0;
+      border-top-left-radius: 10px;
+      border-top: 100px solid  rgb(255,48,91);
+      border-right: 100px solid transparent;
+    
+  }
+  .card-paragrahp{
+      width: 90%;
+      position: absolute;
+      top:10%;
+      left:10%;
+  }
+  .card-paragrahp h2{
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 20px;
+      font-weight: 600;
+      color:rgb(51,51,51);
+  }
+  .card-paragrahp h6{
+      padding-top: 1%;
+  
+  }
+  .card-paragrahp p{
+      padding-left: 15%;
+      padding-top: 1%;
+      line-height: 25px;
+      text-align: left;
+      font-size: 13px;
+  }
+  .card-img{
+      width:15%;
+      float: left;
+      padding-right: 3%;
+  }
+  .card1 img{
+     width: 100%;
+     border-radius: 90px;
+  }
+  
+  .card2{
+      background-color: rgb(241,241,241);
+      width: 90%;
+      height: 30vh;
+      margin-left: 9%;
+      margin-top: 5%;
+      border-radius: 10px;
+      position: relative;
+  }
+  /* Start Blog Section */
+  .Blog{
+      background-color: rgb(241,241,241);
+      height: 266vh;
+  }
+  .Blog h1{
+    font-size: 20px;
+  
+  }
+  
+  
+  
+  .blog-1{
+    
+    width: 50%;
+    margin-top: 3%;
+   margin-left: 20%;
+  }
+  /* iframe{
+      width:338px;
+  } */
+  .blog-1 h5{
+    font-size: 13px;
+  
+  }
+  .blog-1 h2{
+      margin-top: 4%;
+      font-size: 20px;
+  }
+  .blog-1 h2 a{
+      font-size: 13px;
+  }
+  
+  .blog-1 p{
+      font-size: 13px;
+  }
+  
+  .read-link a{
+      font-size: 13px;
+  }
+  /* Start Contact Section */
+  .Contact{
+      height: 100vh;
+      
+      }
+      
+      .Contact h1{
+          padding-top: 5%;
+          text-align: center;
+          position: relative;
+      }
+      
+     
+      
+      form{
+          width: 70%;
+    
+         
+      }
+      .subject1 {
+          width: 100%;
+       
+        }
+        input[type=email] {
+          width: 100%;
+      
+          margin: 0;
+    
+        }
+        .subject{
+          width: 100%;
+          margin: 8px 0;
+        
+        }
+        textarea{
+          width: 100%;
+  
+        }
+      .b1{
+     
+          width: 50%;
+       
+         }
+  /* Start Footer */
+  
+      .footer-text {
+        font-size: 13px;
+      
+      
+      }
+      .footer-text a{
+      
+        font-size: 13px;
+  
+      
+      }
+  
+}
+ @media screen and (max-width: 600px) {
+.nav{
+    width:50%;
+    margin-left: 50%;
+
+}
+
+  .nav li {
+   
+    width: 100%;
+  }
+
+ /* Start Slider Section */
+ .Slider-text{
+ 
+   font-size: 14px;
+  }
+  .Slider-text h2{
+    font-size: 20px;
+ 
+  }
+  .Slider-text h1{
+    font-size: 20px;
+  
+  }
+  .Slider-text h3{
+    font-size: 16px;
+  
+  }
+  /* Start About Section */
+  .About{
+  position: relative;
+}
+.profile-image{
+    width:100%;
+  position: absolute;
+  left:  0%;
+  /* background-color: #ff305b; */
+}
+
+
+
+.profile-back{
+  display: none;
+}
+.profile-hover{
+ width: 72%;
+    top:100%;
+    left:15%;
+}
+
+/* about-text */
+.about-text{
+
+    margin-top: 110%;
+    left: 0%;
+    width: 100%;
+}
+
+.about-text h1{
+
+    font-size: 20px;
+}
+.about-text h1::after{
+
+    top:6px;
+
+}
+
+.about-text p{
+ 
+    font-size: 13px;
+
+}
+
+
+table{
+    width: 100%;
+}
+td{
+ padding-top: 3%;
+ color: #5A5555;
+ font-size: 13px;
+}
+
+
+.about-text button{
+  
+    font-size: 10px;
+ 
+}
+/* Services Section */
+.Services{
+    background-color: rgb(241,241,241);
+    /* background-color: #ff305b; */
+    width:100%;
+    margin-top: 200%;
+    height: 200vh;
+}
+.Services h1{ 
+
+    font-size: 20px;
+}
+
+
+.UI-section{
+    width:100%;
+   
+    }
+    
+    .UI-img img{
+      width: 5%;
+    
+    }
+    .UI-section h2{
+  
+        font-size: 20px;
+ 
+    }
+    .UI-section p{
+     
+        font-size: 14px;
+   
+    }
+
+/* Start Protfolio Section */
+.protfolio{
+    margin-top: 0%;
+}
+.protfolio h1{
+    padding-top: 5%;
+    text-align: center;
+    position: relative;
+}
+
+
+
+.nav-protfolio{
+    width: 100%;
+    /* float: right; */
+    margin-top: 8%;
+    display: inline-block;
+    margin-right: 20%;
+    /* background-color: aqua; */
+}
+  
+    .nav-protfolio li {
+      width: 100%;
+ 
+    }
+    
+    .nav-protfolio ul a {
+
+     font-size: 13px;
+  
+    }
+     .nav-protfolio .active a{
+        color: #ff305b;
+       
+       }  
+    .protfolio-imgs {
+        margin-top: 3%;
+        width: 70%;
+       /* margin-left: 25%;  */
+      
+      
+   
+    }
+    div.gallary {
+        margin: 20px;
+        float: left;
+        width: 100%;
+      }
+      
+      div.gallary:hover {
+      opacity: .5;
+      }
+      .protfolio-numbers{
+        background-color: rgb(241,241,241);
+        height: 90vh;
+       
+      
+        }
+        .team-section{
+            /* background-color: aqua; */
+            width:100%;
+           margin-top: 5%;
+            margin-left: 7%;
+        }
+  
+        .team-section img{
+            width: 10%;
+            text-align: center;
+        }
+        .team-section h1 {
+           font-size: 20px;
+    
+        }
+        .team-section h4 {
+           font-size: 13px;
+         }
+
+ /* Start Testimonial Section */
+.Testimonial{
+    height: 100vh;
+}
+.Testimonial h1{
+    padding-top: 5%;
+   font-size: 20px;
+}
+
+
+
+.card1{
+    background-color: rgb(241,241,241);
+    width: 90%;
+    height: 30vh;
+    margin-left: 9%;
+    margin-top: 5%;
+    border-radius: 10px;
+    position: relative;
+}
+.red-triangle{
+    width: 20%;
+    height: 0;
+    border-top-left-radius: 10px;
+    border-top: 100px solid  rgb(255,48,91);
+    border-right: 100px solid transparent;
+  
+}
+.card-paragrahp{
+    width: 90%;
+    position: absolute;
+    top:10%;
+    left:10%;
+}
+.card-paragrahp h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color:rgb(51,51,51);
+}
+.card-paragrahp h6{
+    padding-top: 1%;
+
+}
+.card-paragrahp p{
+    padding-left: 15%;
+    padding-top: 1%;
+    line-height: 25px;
+    text-align: left;
+    font-size: 13px;
+}
+.card-img{
+    width:15%;
+    float: left;
+    padding-right: 3%;
+}
+.card1 img{
+   width: 100%;
+   border-radius: 90px;
+}
+
+.card2{
+    background-color: rgb(241,241,241);
+    width: 90%;
+    height: 30vh;
+    margin-left: 9%;
+    margin-top: 5%;
+    border-radius: 10px;
+    position: relative;
+}
+/* Start Blog Section */
+.Blog{
+    background-color: rgb(241,241,241);
+    height: 280vh;
+}
+.Blog h1{
+  font-size: 20px;
+
+}
+
+
+
+.blog-1{
+  
+    width: 100%;
+margin-top: 5%;
+}
+
+iframe{
+    width:466px;
+}
+.blog-1 h5{
+  font-size: 13px;
+
+}
+.blog-1 h2{
+    margin-top: 4%;
+    font-size: 20px;
+}
+.blog-1 h2 a{
+    font-size: 13px;
+}
+
+.blog-1 p{
+    font-size: 13px;
+}
+
+.read-link a{
+    font-size: 13px;
+}
+/* Start Contact Section */
+.Contact{
+    height: 100vh;
+    
+    }
+    
+    .Contact h1{
+        padding-top: 5%;
+        text-align: center;
+        position: relative;
+    }
+    
+   
+    
+    form{
+        width: 70%;
+  
+       
+    }
+    .subject1 {
+        width: 100%;
+     
+      }
+      input[type=email] {
+        width: 100%;
+    
+        margin: 0;
+  
+      }
+      .subject{
+        width: 100%;
+        margin: 8px 0;
+      
+      }
+      textarea{
+        width: 100%;
+
+      }
+    .b1{
+   
+        width: 50%;
+     
+       }
+/* Start Footer */
+
+    .footer-text {
+      font-size: 13px;
+    
+    
+    }
+    .footer-text a{
+    
+      font-size: 13px;
+
+    
+    }
+}
+@media screen and (max-width: 400px) {
+    .nav{
+        width:100%;
+       
+        margin-left: 0%;
+    /* background-color: #ff305b; */
+    }
+    
+      .nav li {
+       
+        width: 100%;
+      }
+    
+     /* Start Slider Section */
+     .Slider-text{
+    
+       font-size: 14px;
+      }
+      .Slider-text h2{
+        font-size: 20px;
+     
+      }
+      .Slider-text h1{
+        font-size: 20px;
+      
+      }
+      .Slider-text h3{
+        font-size: 16px;
+      
+      }
+      /* Start About Section */
+      .About{
+        position: relative;
+      }
+      .profile-image{
+          width:100%;
+        position: absolute;
+        left:  0%;
+        /* background-color: #ff305b; */
+      }
+      
+      .profile-back{
+        display: none;
+      }
+      .profile-hover{
+       width: 90%;
+          top:100%;
+          left:5%;
+      }
+      
+      /* about-text */
+      .about-text{
+      
+          margin-top: 160%;
+          left: 0%;
+          width: 100%;
+      }
+      
+      .about-text h1{
+      
+          font-size: 20px;
+      }
+      .about-text h1::after{
+      
+          top:6px;
+      
+      }
+      
+      .about-text p{
+       
+          font-size: 13px;
+      
+      }
+      
+      
+      table{
+          width: 100%;
+      }
+      td{
+       padding-top: 3%;
+       color: #5A5555;
+       font-size: 13px;
+      }
+      
+      
+      .about-text button{
+        
+          font-size: 10px;
+       
+      }
+      /* Services Section */
+      .Services{
+          background-color: rgb(241,241,241);
+          /* background-color: #ff305b; */
+          width:100%;
+          margin-top: 350%;
+          height: 200vh;
+      }
+      .Services h1{ 
+      
+          font-size: 20px;
+      }
+      
+      
+      .UI-section{
+          width:100%;
+         
+          }
+          
+          .UI-img img{
+            width: 5%;
+          
+          }
+          .UI-section h2{
+        
+              font-size: 20px;
+       
+          }
+          .UI-section p{
+           
+              font-size: 14px;
+         
+          }
+      
+    
+    /* Start Protfolio Section */
+    .protfolio{
+        margin-top: 0%;
+    }
+    .protfolio h1{
+        padding-top: 5%;
+        text-align: center;
+        position: relative;
+    }
+    
+    
+    
+    .nav-protfolio{
+        width: 100%;
+        /* float: right; */
+        margin-top: 8%;
+        display: inline-block;
+        margin-right: 20%;
+        /* background-color: aqua; */
+    }
+      
+        .nav-protfolio li {
+          width: 100%;
+     
+        }
+        
+        .nav-protfolio ul a {
+    
+         font-size: 13px;
+      
+        }
+         .nav-protfolio .active a{
+            color: #ff305b;
+           
+           }  
+        .protfolio-imgs {
+            margin-top: 3%;
+            width: 100%;
+           margin-left: 20%; 
+          
+          
+       
+        }
+        div.gallary {
+            margin: 20px;
+            float: left;
+            width: 60%;
+          }
+          
+          div.gallary:hover {
+          opacity: .5;
+          }
+          .protfolio-numbers{
+            background-color: rgb(241,241,241);
+            height: 90vh;
+           
+          
+            }
+            .team-section{
+                /* background-color: aqua; */
+                width:100%;
+               margin-top: 5%;
+                margin-left: 7%;
+            }
+      
+            .team-section img{
+                width: 10%;
+                text-align: center;
+            }
+            .team-section h1 {
+               font-size: 20px;
+        
+            }
+            .team-section h4 {
+               font-size: 13px;
+             }
+    
+     /* Start Testimonial Section */
+    .Testimonial{
+        height: 100vh;
+    }
+    .Testimonial h1{
+        padding-top: 5%;
+       font-size: 20px;
+    }
+    
+    
+    
+    .card1{
+        background-color: rgb(241,241,241);
+        width: 100%;
+        height: 60vh;
+        margin-left: 0%;
+        margin-top: 5%;
+        border-radius: 10px;
+        position: relative;
+    }
+    .red-triangle{
+        width: 20%;
+        height: 0;
+        border-top-left-radius: 10px;
+        border-top: 100px solid  rgb(255,48,91);
+        border-right: 100px solid transparent;
+      
+    }
+    .card-paragrahp{
+        width: 70%;
+        position: absolute;
+        top:10%;
+     
+        left:20%;
+    }
+    .card-paragrahp h2{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        color:rgb(51,51,51);
+    }
+    .card-paragrahp h6{
+        padding-top: 1%;
+    
+    }
+    .card-paragrahp p{
+        padding-left: 15%;
+        padding-top: 1%;
+        line-height: 25px;
+        text-align: left;
+        font-size: 13px;
+    }
+    .card-img{
+        width:20%;
+        float: left;
+        padding-right: 3%;
+    }
+    .card1 img{
+       width: 100%;
+       border-radius: 90px;
+    }
+    
+    .card2{
+        background-color: rgb(241,241,241);
+        width: 100%;
+        height: 60vh;
+        margin-left: 0%;
+        margin-top: 5%;
+        border-radius: 10px;
+        position: relative;
+    }
+    /* Start Blog Section */
+    .Blog{
+        background-color: rgb(241,241,241);
+        height: 280vh;
+        margin-top: 60%;
+    
+    }
+    .Blog h1{
+      font-size: 20px;
+    
+    }
+    
+    
+    
+    .blog-1{
+      
+        width: 100%;
+      margin-top: 7%;
+     
+    }
+    
+    /* iframe{
+        width:286px;
+    } */
+    .blog-1 h5{
+      font-size: 13px;
+    
+    }
+    .blog-1 h2{
+        margin-top: 4%;
+        font-size: 20px;
+    }
+    .blog-1 h2 a{
+        font-size: 13px;
+    }
+    
+    .blog-1 p{
+        font-size: 13px;
+    }
+    
+    .read-link a{
+        font-size: 13px;
+    }
+    /* Start Contact Section */
+    .Contact{
+        height: 100vh;
+        
+        }
+        
+        .Contact h1{
+            padding-top: 5%;
+            text-align: center;
+            position: relative;
+        }
+        
+       
+        
+        form{
+            width: 50%;
+      
+           
+        }
+        .subject1 {
+            width: 100%;
+         
+          }
+          input[type=email] {
+            width: 100%;
+        
+            margin: 0;
+      
+          }
+          .subject{
+            width: 100%;
+            margin: 8px 0;
+          
+          }
+          textarea{
+            width: 100%;
+    
+          }
+        .b1{
+       
+            width: 70%;
+         
+           }
+    /* Start Footer */
+    
+        .footer-text {
+          font-size: 10px;
+        
+        
+        }
+        .footer-text a{
+        
+          font-size: 10px;
+    
+        
+        }
+    }
